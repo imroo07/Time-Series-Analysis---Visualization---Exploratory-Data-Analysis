@@ -31,6 +31,11 @@ All the libraries required for this project are as follows
 
 # Conclusion
 
-Based on the ADF Statistici.e < all Critical Values, So, we reject the null hypothesis and conclude that we have enough evidence to reject the null hypothesis. The data appear to be stationary according to the Augmented Dickey-Fuller test.
+Initially null hypothesis is accepted as the data does not appear to be stationary according to the Augmented Dickey-Fuller test. To achieve stationarity before applying time series models, **Differencing** is used to smoothen the Data.
 
-This suggests that differencing or other transformations may be needed to achieve stationarity before applying certain time series models.
+After that ADF test is conducted again, where the ADF Statistic < all Critical Values. 
+So,the null hypothesis is rejected.
+
+The data appear to be stationary according to the Augmented Dickey-Fuller test.
+
+This suggests that differencing is needed to achieve stationarity before applying time series models.
